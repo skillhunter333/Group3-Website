@@ -37,11 +37,11 @@ nav .logo{
     width: 20px;
 }
 #launch{
-    border-radius: 15px 30px;
+    border-radius: 8px 15px 0px 15px;
     background-color: rgb(36, 98, 212);
 }
 #integrate{
-    border-radius: 15px 30px;
+    border-radius: 8px 15px 0px 15px;
     background-color: magenta;
     margin-right: 20px;
     margin-left: 20px;
