@@ -1,0 +1,157 @@
+body{
+    background: linear-gradient(
+    145deg,
+    #473403  0%,
+    rgb(37, 28, 28) 20%,
+    rgb(12, 8, 8)50%,  
+     rgb(0, 0, 0)  100%
+  );
+    color: aliceblue;
+    font-size: 25px;
+    box-sizing: border-box;
+   
+   
+    
+}
+.container{
+    width: 100%;
+    height: auto;
+   
+   
+}
+
+.nav-bar{
+
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.nav:hover{
+    background: linear-gradient(
+        145deg,
+        #473403  0%,
+        rgb(37, 28, 28) 20%,
+        rgb(12, 8, 8)50%,  
+         rgb(0, 0, 0)  100%
+      );
+    opacity: 0.75;
+}
+.nav-item {
+   
+    font-size: 15px;
+    margin: 3vw 3vh;
+}
+.item{
+    list-style: none;
+
+}
+
+.item a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+.item a:hover{
+    color:rgb(125, 125, 125);
+}
+
+.main{
+
+    margin: 5vh;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+}
+.col1{
+    width: 60%;
+}
+
+.col2{
+    width: 40%;
+}
+
+.btn{
+    width: 10vw;
+    height: 5vh;
+    background-color: #e3ac21;
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 10px;
+    transition: width 2s;
+    
+}
+.btn:hover{
+    width:13vw ;
+    height: 7vh;
+    background-color: #987213;
+    color: whitesmoke;
+
+}
+
+.links{
+    display: flex;
+    margin: 5% 5%;
+    
+   
+}
+.link{
+    padding: 2% 2%;
+}
+
+.link-s{
+    padding-top: 0;
+    padding-left: 7%;
+
+}
+
+.info{
+    width: 100%;
+    height: auto;
+    margin: 5% 5%;
+    font-size: 20px;
+    background: linear-gradient(
+        145deg,
+        #473403  0%,
+        rgb(37, 28, 28) 20%,
+        rgb(12, 8, 8)50%,  
+         rgb(0, 0, 0)  100%
+      );
+
+      padding: 1% 1%;
+    
+}
+
+footer{
+    margin-bottom: 0;
+    
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .icon{
+    color: whitesmoke;
+    height: 5%;
+    width: 5%;
+    padding-left: ;
+ }
+
+.contact-item{
+    color: #e3ac21;
+    padding-left: 15px;
+}
+
+
+.footer-text{
+    font-size: 15px;
+    color: aliceblue;
+    padding-top: 2%;
+}
